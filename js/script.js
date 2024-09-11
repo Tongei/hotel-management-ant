@@ -5,7 +5,7 @@ let numberOfRoom = document.querySelector("#numOfRoom");
 document.querySelector("#hotelForm").onsubmit = (event) => {
   event.preventDefault();
   if (validated()) {
-    location = "/pages/hotel.html";
+    location = "pages/hotel.html";
   }
   document.querySelector("#hotelForm").reset();
 };
